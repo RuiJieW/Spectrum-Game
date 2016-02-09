@@ -41,24 +41,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Floor
-    uniqueID: 4010135033
-    locked: 0
-  - name: Player
-    uniqueID: 2433099507
-    locked: 0
-  - name: Basic Items BG
+  - name: BG
     uniqueID: 554266439
     locked: 0
-  - name: Coloured Items BG
+  - name: 'GROUND ZERO '
+    uniqueID: 4010135033
+    locked: 0
+  - name: FG
     uniqueID: 333696447
     locked: 0
   - name: Light
     uniqueID: 1809473865
-    locked: 0
-  - name: Basic Items FG
-    uniqueID: 3218563375
-    locked: 0
-  - name: Coloured Items FG
-    uniqueID: 2729633663
     locked: 0
