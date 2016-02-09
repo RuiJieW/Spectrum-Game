@@ -44,6 +44,9 @@ TagManager:
   - name: Floor
     uniqueID: 4010135033
     locked: 0
+  - name: Player
+    uniqueID: 2433099507
+    locked: 0
   - name: Basic Items BG
     uniqueID: 554266439
     locked: 0
@@ -52,9 +55,6 @@ TagManager:
     locked: 0
   - name: Light
     uniqueID: 1809473865
-    locked: 0
-  - name: Player
-    uniqueID: 2433099507
     locked: 0
   - name: Basic Items FG
     uniqueID: 3218563375
