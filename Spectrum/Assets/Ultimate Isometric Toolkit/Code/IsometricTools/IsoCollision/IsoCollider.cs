@@ -7,7 +7,7 @@ public class IsoCollider : MonoBehaviour {
     public Ghost ghost;
 
     public IsoObject isoObj;
-
+   
     public Vector3 Position {
         get { return isoObj.Position; }
         private set { isoObj.Position = value;}
@@ -32,7 +32,8 @@ public class IsoCollider : MonoBehaviour {
 
 
     void FixedUpdate() {
+
         isoObj.Position = new Vector3(ghost.transform.position.x, ghost.transform.position.z, ghost.transform.position.y);
     }
-    
+
 }
