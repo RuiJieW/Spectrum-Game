@@ -7,7 +7,7 @@ public class Visibility : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         rend = GetComponent<Renderer>();
-        rend.enabled = true;
+        rend.enabled = false;
      // SpriteRenderer.Sprite = None;
 	}
 	

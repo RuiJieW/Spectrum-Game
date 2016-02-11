@@ -24,6 +24,7 @@ public class AdvancedIsoObjectController : MonoBehaviour {
         //playerRigidBody = GetComponent<Rigidbody>();
         ghostObject = gameObject.GetComponent<IsoCollider>().ghost.transform;
 
+
     }
     void Update() {
         if (playerInRange == true)
@@ -36,7 +37,7 @@ public class AdvancedIsoObjectController : MonoBehaviour {
             }
         }
         var light = GameObject.FindWithTag("light");
-      /*  GameObject[] blocks;
+       /*GameObject[] blocks;
         blocks = GameObject.FindGameObjectsWithTag("orange");
         foreach (GameObject item in blocks)
         {
@@ -100,9 +101,10 @@ public class AdvancedIsoObjectController : MonoBehaviour {
         //playerRigidBody.MovePosition(transform.position + movement);
     }
 
-    void OnTriggerEnter(IsoCollider other)
+    void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "light" && gameObject.tag == "player") ;
+        print("here");
+        if (other.gameObject.tag == "light" && gameObject.tag == "Player") ;
         {
             playerInRange = true;
         }
