@@ -1541,7 +1541,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11444184, guid: bea194522b316054db9dab05ac83e1ad, type: 2}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 21276254, guid: bea194522b316054db9dab05ac83e1ad, type: 2}
       propertyPath: m_SortingLayerID
