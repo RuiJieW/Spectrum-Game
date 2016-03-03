@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{C0D49CBE-E3B5-71A7-7B48-3AACEB20270F}") = "Spectrum", "Assembly-CSharp.csproj", "{81DD45AB-423E-962F-5C70-E0D2FCAF6843}"
+EndProject
+Project("{C0D49CBE-E3B5-71A7-7B48-3AACEB20270F}") = "Spectrum", "Assembly-CSharp-Editor.csproj", "{1E0B781B-149E-5FFD-4A77-573E49F6359D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81DD45AB-423E-962F-5C70-E0D2FCAF6843}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81DD45AB-423E-962F-5C70-E0D2FCAF6843}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81DD45AB-423E-962F-5C70-E0D2FCAF6843}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81DD45AB-423E-962F-5C70-E0D2FCAF6843}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E0B781B-149E-5FFD-4A77-573E49F6359D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E0B781B-149E-5FFD-4A77-573E49F6359D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E0B781B-149E-5FFD-4A77-573E49F6359D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E0B781B-149E-5FFD-4A77-573E49F6359D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
