@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/Ultimate Isometric Toolkit/SampleScenes/Paradox.unity
-  isLoaded: 1
-  isActive: 1

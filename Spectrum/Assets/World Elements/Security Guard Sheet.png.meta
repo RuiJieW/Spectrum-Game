@@ -1,0 +1,338 @@
+fileFormatVersion: 2
+guid: 0c79d4081ba0c416087a00c3a3cac77a
+timeCreated: 1456990783
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Security Guard Sheet_0
+    21300002: Security Guard Sheet_1
+    21300004: Security Guard Sheet_2
+    21300006: Security Guard Sheet_3
+    21300008: Security Guard Sheet_4
+    21300010: Security Guard Sheet_5
+    21300012: Security Guard Sheet_6
+    21300014: Security Guard Sheet_7
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 7
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Security Guard Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 333
+        width: 125
+        height: 327
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29.5, y: 327}
+        - {x: -54.5, y: 327}
+        - {x: -62.5, y: 324}
+        - {x: -62.5, y: 259}
+        - {x: -54.5, y: 241}
+        - {x: -62.5, y: 206}
+        - {x: -62.5, y: 149}
+        - {x: -47.5, y: 88}
+        - {x: -44.5, y: 0}
+        - {x: 44.5, y: 0}
+        - {x: 44.5, y: 4}
+        - {x: 62.5, y: 110}
+        - {x: 62.5, y: 267}
+    - name: Security Guard Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 339
+        width: 129
+        height: 327
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.5, y: 327}
+        - {x: -64.5, y: 305}
+        - {x: -64.5, y: 187}
+        - {x: -58.5, y: 158}
+        - {x: -42.5, y: 150}
+        - {x: -45.5, y: 19}
+        - {x: -37.5, y: 0}
+        - {x: 52.5, y: 0}
+        - {x: 64.5, y: 49}
+        - {x: 64.5, y: 257}
+        - {x: 39.5, y: 327}
+    - name: Security Guard Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 340
+        width: 141
+        height: 327
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.5, y: 327}
+        - {x: -70.5, y: 322}
+        - {x: -70.5, y: 292}
+        - {x: -32.5, y: 232}
+        - {x: -6.5, y: 236}
+        - {x: -5.5, y: 237}
+        - {x: -1.5, y: 237}
+        - {x: 1.5, y: 238}
+        - {x: 2.5, y: 239}
+        - {x: 4.5, y: 239}
+        - {x: 10.5, y: 241}
+        - {x: 3.5, y: 239}
+        - {x: 1.5, y: 237}
+        - {x: -2.5, y: 237}
+        - {x: -8.5, y: 235}
+        - {x: -16.5, y: 227}
+        - {x: -20.5, y: 220}
+        - {x: -68.5, y: 233}
+        - {x: -70.5, y: 233}
+        - {x: -70.5, y: 184}
+        - {x: -68.5, y: 177}
+        - {x: -45.5, y: 0}
+        - {x: 53.5, y: 0}
+        - {x: 70.5, y: 95}
+        - {x: 70.5, y: 276}
+        - {x: 40.5, y: 327}
+    - name: Security Guard Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 339
+        width: 129
+        height: 327
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 327}
+        - {x: -56.5, y: 327}
+        - {x: -64.5, y: 310}
+        - {x: -64.5, y: 275}
+        - {x: -43.5, y: 244}
+        - {x: -23.5, y: 230}
+        - {x: -12.5, y: 236}
+        - {x: -8.5, y: 236}
+        - {x: -2.5, y: 238}
+        - {x: 5.5, y: 242}
+        - {x: -0.5, y: 239}
+        - {x: -4.5, y: 236}
+        - {x: -9.5, y: 236}
+        - {x: -12.5, y: 235}
+        - {x: -19.5, y: 231}
+        - {x: -28.5, y: 218}
+        - {x: -41.5, y: 235}
+        - {x: -64.5, y: 243}
+        - {x: -64.5, y: 0}
+        - {x: 57.5, y: 0}
+        - {x: 64.5, y: 41}
+        - {x: 64.5, y: 295}
+        - {x: 44.5, y: 321}
+    - name: Security Guard Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 0
+        width: 130
+        height: 326
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -52, y: 326}
+        - {x: -64, y: 307}
+        - {x: -65, y: 299}
+        - {x: -65, y: 273}
+        - {x: -41, y: 242}
+        - {x: -27, y: 233}
+        - {x: -10, y: 235}
+        - {x: -9, y: 236}
+        - {x: -6, y: 236}
+        - {x: -5, y: 237}
+        - {x: 0, y: 238}
+        - {x: 6, y: 241}
+        - {x: -1, y: 238}
+        - {x: -3, y: 236}
+        - {x: -7, y: 236}
+        - {x: -8, y: 235}
+        - {x: -10, y: 235}
+        - {x: -24, y: 232}
+        - {x: -65, y: 208}
+        - {x: -65, y: 151}
+        - {x: -55, y: 147}
+        - {x: -44, y: 21}
+        - {x: -38, y: 3}
+        - {x: -35, y: 0}
+        - {x: 47, y: 0}
+        - {x: 65, y: 52}
+        - {x: 65, y: 261}
+        - {x: 53, y: 326}
+    - name: Security Guard Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 0
+        width: 156
+        height: 327
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 327}
+        - {x: -50, y: 305}
+        - {x: -57, y: 278}
+        - {x: -26, y: 243}
+        - {x: -21, y: 237}
+        - {x: -12, y: 234}
+        - {x: 2, y: 235}
+        - {x: 3, y: 236}
+        - {x: 6, y: 236}
+        - {x: 7, y: 237}
+        - {x: 12, y: 238}
+        - {x: 19, y: 240}
+        - {x: 11, y: 238}
+        - {x: 9, y: 236}
+        - {x: 5, y: 236}
+        - {x: 4, y: 235}
+        - {x: -1, y: 235}
+        - {x: -78, y: 200}
+        - {x: -78, y: 137}
+        - {x: -29, y: 0}
+        - {x: 64, y: 0}
+        - {x: 78, y: 8}
+        - {x: 78, y: 323}
+        - {x: 77, y: 327}
+    - name: Security Guard Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 0
+        width: 156
+        height: 327
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 327}
+        - {x: -66, y: 313}
+        - {x: -52, y: 276}
+        - {x: -22, y: 238}
+        - {x: -9, y: 234}
+        - {x: 0, y: 235}
+        - {x: 1, y: 236}
+        - {x: 5, y: 236}
+        - {x: 12, y: 238}
+        - {x: 20, y: 242}
+        - {x: 14, y: 239}
+        - {x: 10, y: 236}
+        - {x: 4, y: 236}
+        - {x: -1, y: 234}
+        - {x: -7, y: 227}
+        - {x: -12, y: 220}
+        - {x: -69, y: 207}
+        - {x: -78, y: 204}
+        - {x: -78, y: 140}
+        - {x: -30, y: 11}
+        - {x: -22, y: 0}
+        - {x: 61, y: 0}
+        - {x: 78, y: 78}
+        - {x: 78, y: 244}
+        - {x: 37, y: 327}
+    - name: Security Guard Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 1
+        width: 146
+        height: 327
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32, y: 327}
+        - {x: -49, y: 327}
+        - {x: -73, y: 283}
+        - {x: -73, y: 275}
+        - {x: -20, y: 229}
+        - {x: -4, y: 234}
+        - {x: -4, y: 236}
+        - {x: 1, y: 236}
+        - {x: 2, y: 237}
+        - {x: 10, y: 239}
+        - {x: 15, y: 240}
+        - {x: 9, y: 239}
+        - {x: 5, y: 236}
+        - {x: -1, y: 236}
+        - {x: -11, y: 229}
+        - {x: -19, y: 217}
+        - {x: -64, y: 223}
+        - {x: -73, y: 222}
+        - {x: -73, y: 202}
+        - {x: -64, y: 176}
+        - {x: -11, y: 154}
+        - {x: -7, y: 160}
+        - {x: -6, y: 163}
+        - {x: -5, y: 167}
+        - {x: -4, y: 167}
+        - {x: -8, y: 159}
+        - {x: -10, y: 148}
+        - {x: -17, y: 101}
+        - {x: -30, y: 21}
+        - {x: -31, y: 9}
+        - {x: -25, y: 0}
+        - {x: 55, y: 0}
+        - {x: 73, y: 100}
+        - {x: 73, y: 239}
+        - {x: 51, y: 321}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
