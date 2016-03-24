@@ -99,6 +99,8 @@
     <Compile Include="Assets\Ultimate Isometric Toolkit\Editor\IsoObjectEditor.cs" />
     <Compile Include="Assets\Ultimate Isometric Toolkit\Editor\IsoSnapping.cs" />
     <Compile Include="Assets\Ultimate Isometric Toolkit\Editor\LevelGeneratorEditor.cs" />
+    <Compile Include="Assets\Ultimate Isometric Toolkit\Editor\Reminder.cs" />
+    <Compile Include="Assets\Ultimate Isometric Toolkit\Editor\reminderHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Ultimate Isometric Toolkit\Art\License.txt" />
