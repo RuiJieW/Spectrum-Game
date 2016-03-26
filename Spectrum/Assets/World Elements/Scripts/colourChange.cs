@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Moving : MonoBehaviour {
-    GameObject 
+public class colourChange : MonoBehaviour {
+
 	// Use this for initialization
 	void Start () {
 	

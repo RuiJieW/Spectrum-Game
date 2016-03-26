@@ -86,7 +86,7 @@
     <Compile Include="Assets\Ultimate Isometric Toolkit\Code\IsometricTools\Other\LevelLoader.cs" />
     <Compile Include="Assets\Ultimate Isometric Toolkit\Code\IsometricTools\Other\MethodExtensionForMonoBehaviourTransform.cs" />
     <Compile Include="Assets\Ultimate Isometric Toolkit\Code\IsometricTools\Other\Singleton.cs" />
-    <Compile Include="Assets\World Elements\Scripts 1\Moving.cs" />
+    <Compile Include="Assets\World Elements\Scripts\colourChange.cs" />
     <Compile Include="Assets\World Elements\Scripts\displayUI.cs" />
   </ItemGroup>
   <ItemGroup>
