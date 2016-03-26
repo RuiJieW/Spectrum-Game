@@ -1,4 +1,10 @@
 sceneSetups:
+<<<<<<< HEAD
+- path: Assets/spectrum_lvl3.unity
+||||||| merged common ancestors
+- path: Assets/spectrum_lvl2.unity
+=======
 - path: Assets/spectrum_lvl1.unity
+>>>>>>> f48a4ed1689a2daef22aecb46c8f7969a4d0725d
   isLoaded: 1
   isActive: 1
