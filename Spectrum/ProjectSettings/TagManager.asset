@@ -4,8 +4,11 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - light
+  - light-o
   - orange
+  - blue
+  - light-b
+  - light
   layers:
   - Default
   - TransparentFX
