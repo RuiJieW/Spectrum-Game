@@ -44,19 +44,12 @@ public class SimpleControllerKai : MonoBehaviour
         //
 
 
-        //Kai's addition
-        Vector3 movement;
-        Animator anim;
-        Rigidbody PlayerRigidBody;
-        bool playerInRange;
-        //
-
-
 
 
 
         if (Input.GetKeyDown("space"))
         {
+            anim.SetTrigger("IsJumping");
             GetComponent<Rigidbody>().AddForce(Isometric.vectorToIsoDirection(IsoDirection.Up) * jumpForce, ForceMode.Impulse);
         }
 
