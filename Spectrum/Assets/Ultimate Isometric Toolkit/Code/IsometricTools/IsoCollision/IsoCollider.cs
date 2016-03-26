@@ -24,6 +24,7 @@ public class IsoCollider : MonoBehaviour
         this.collider = GetComponent<MeshCollider>();
         collider.sharedMesh = createMesh();
         deltaSize = isoObj.Size;
+        Isometric.projectGravityVector();
     }
 
     /// <summary>
