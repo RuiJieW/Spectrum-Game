@@ -3,6 +3,7 @@ using System.Collections;
 public class Pickup : MonoBehaviour
 {
     Animator anim;
+    int colour = 0;
     // Use this for initialization
 
     void Start()

@@ -45,6 +45,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Loadlvl.cs" />
      <Compile Include="Assets\MainMenu\Scripts\loadLevel.cs" />
      <Compile Include="Assets\MainMenu\SimpleControllerKai.cs" />
      <Compile Include="Assets\Player\Scripts\Pickup.cs" />
