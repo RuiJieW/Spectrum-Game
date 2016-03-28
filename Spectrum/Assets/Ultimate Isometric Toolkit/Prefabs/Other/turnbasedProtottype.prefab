@@ -44,7 +44,6 @@ MonoBehaviour:
   isoObj: {fileID: 0}
   forwardSpeed: 0.5
   turnSpeed: 0.1
-  map: {fileID: 0}
   positionInMap: {x: 0, y: 0, z: 0}
 --- !u!114 &11400002
 MonoBehaviour:
@@ -57,9 +56,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6aff52b17c13c5d43a7489b808817cdc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  position: {x: 0, y: 0, z: 0}
-  size: {x: 0.8, y: 0.8, z: 1.37}
   displayBounds: 1
+  size: {x: 0.8, y: 0.8, z: 1.37}
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1

@@ -28,26 +28,7 @@ public class Isometric {
                 return toIsoProjection(Vector3.back);
             default:
                 return Vector2.zero;
-
-                /*
-                switch (dir)
-                {
-                    case IsoDirection.North:
-                        return toIsoProjection(Vector3.right);
-                    case IsoDirection.East:
-                        return toIsoProjection(Vector3.down);
-                    case IsoDirection.South:
-                        return toIsoProjection(Vector3.left);
-                    case IsoDirection.West:
-                        return toIsoProjection(Vector3.up);
-                    case IsoDirection.Up:
-                        return toIsoProjection(Vector3.forward);
-                    case IsoDirection.Down:
-                        return toIsoProjection(Vector3.back);
-                    default:
-                        return Vector2.zero;
-                        */
-                }
+        }
 
     }
 	/// <summary>
