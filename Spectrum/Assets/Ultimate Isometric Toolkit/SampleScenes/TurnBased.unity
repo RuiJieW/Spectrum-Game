@@ -112,8 +112,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24fc2b56f4e03a04a86a88afcd99e5bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tilePrototypes: []
   playerPrototype: {fileID: 11400000, guid: c7c172941b309b54da399e709b208e8d, type: 2}
+  prototypes:
+  - {fileID: 11400000, guid: 81932db716a10bf438f958ef37d9598e, type: 2}
+  - {fileID: 11400000, guid: 495960d53e967094e894e9b2b5b05267, type: 2}
+  - {fileID: 11400000, guid: 0c7359d3c39b1d942a54170a87f3394f, type: 2}
 --- !u!4 &2102606026
 Transform:
   m_ObjectHideFlags: 0

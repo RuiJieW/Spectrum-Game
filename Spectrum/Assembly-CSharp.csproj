@@ -45,8 +45,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Loadlvl.cs" />
      <Compile Include="Assets\MainMenu\Scripts\loadLevel.cs" />
      <Compile Include="Assets\MainMenu\SimpleControllerKai.cs" />
+     <Compile Include="Assets\Orb.cs" />
      <Compile Include="Assets\Player\Scripts\Pickup.cs" />
      <Compile Include="Assets\Player\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Player\Scripts\Visibility.cs" />
@@ -70,7 +72,10 @@
      <Compile Include="Assets\Ultimate Isometric Toolkit\Code\IsometricTools\Other\LevelLoader.cs" />
      <Compile Include="Assets\Ultimate Isometric Toolkit\Code\IsometricTools\Other\MethodExtensionForMonoBehaviourTransform.cs" />
      <Compile Include="Assets\Ultimate Isometric Toolkit\Code\IsometricTools\Other\Singleton.cs" />
+     <Compile Include="Assets\World Elements\Scripts\colourChange.cs" />
      <Compile Include="Assets\World Elements\Scripts\displayUI.cs" />
+     <Compile Include="Assets\disableCollider.cs" />
+     <Compile Include="Assets\tilemovement.cs" />
      <None Include="Assets\Ultimate Isometric Toolkit\ReadMe.txt" />
      <None Include="Assets\Ultimate Isometric Toolkit\SetupAndConstraints.txt" />
      <None Include="Assets\Ultimate Isometric Toolkit\Art\License.txt" />

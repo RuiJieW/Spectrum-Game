@@ -8,10 +8,10 @@ using System.Collections;
 [RequireComponent(typeof(Rigidbody))]
 public class SimpleControllerKai : MonoBehaviour
 {
-
+    public float timeBetweenJump;
     public float speed = 10;
     public float jumpForce = 5;
-
+    float timer;
     //Kai's addition
     Vector3 movement;
     Animator anim;
@@ -24,7 +24,7 @@ public class SimpleControllerKai : MonoBehaviour
         //Kai addition
         anim = GetComponent<Animator>();
         //
-
+        timer = 2f;
     }
 
 
@@ -35,6 +35,7 @@ public class SimpleControllerKai : MonoBehaviour
         transform.Translate(Isometric.vectorToIsoDirection(IsoDirection.East) * Input.GetAxis("Horizontal") * Time.deltaTime * speed);
 
         Isometric.projectGravityVector();
+<<<<<<< HEAD
 
         GameObject[] blocks = GameObject.FindGameObjectsWithTag("orange");
 
@@ -44,6 +45,9 @@ public class SimpleControllerKai : MonoBehaviour
             transform.Translate(Isometric.vectorToIsoDirection(IsoDirection.East) * Input.GetAxis("Horizontal") * Time.deltaTime * speed);
         }
 
+=======
+        
+>>>>>>> eb68301b290b87824cbe748600bf11caf39e280d
 
         //Kai's stuff for animations
         float h = Input.GetAxis("Horizontal");
@@ -53,19 +57,13 @@ public class SimpleControllerKai : MonoBehaviour
         //
 
 
-        //Kai's addition
-        Vector3 movement;
-        Animator anim;
-        Rigidbody PlayerRigidBody;
-        bool playerInRange;
-        //
+        timer += Time.deltaTime;
 
 
-
-
-
-        if (Input.GetKeyDown("space"))
+        if (Input.GetKeyDown("space") && timer >2)
         {
+            timer = 0f;
+            anim.SetTrigger("IsJumping");
             GetComponent<Rigidbody>().AddForce(Isometric.vectorToIsoDirection(IsoDirection.Up) * jumpForce, ForceMode.Impulse);
         }
 

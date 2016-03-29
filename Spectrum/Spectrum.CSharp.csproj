@@ -90,6 +90,7 @@
     <Compile Include="Assets\Ultimate Isometric Toolkit\Code\IsometricTools\Other\Singleton.cs" />
     <Compile Include="Assets\World Elements\Scripts\colourChange.cs" />
     <Compile Include="Assets\World Elements\Scripts\displayUI.cs" />
+    <Compile Include="Assets\tilemovement.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Ultimate Isometric Toolkit\Art\License.txt" />
