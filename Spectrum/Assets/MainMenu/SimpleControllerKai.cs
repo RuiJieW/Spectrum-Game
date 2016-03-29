@@ -8,10 +8,10 @@ using System.Collections;
 [RequireComponent(typeof(Rigidbody))]
 public class SimpleControllerKai : MonoBehaviour
 {
-
+    public float timeBetweenJump;
     public float speed = 10;
     public float jumpForce = 5;
-
+    float timer;
     //Kai's addition
     Vector3 movement;
     Animator anim;
@@ -24,7 +24,7 @@ public class SimpleControllerKai : MonoBehaviour
         //Kai addition
         anim = GetComponent<Animator>();
         //
-
+        timer = 2f;
     }
 
 
@@ -34,7 +34,7 @@ public class SimpleControllerKai : MonoBehaviour
         transform.Translate(Isometric.vectorToIsoDirection(IsoDirection.North) * Input.GetAxis("Vertical") * Time.deltaTime * speed);
         transform.Translate(Isometric.vectorToIsoDirection(IsoDirection.East) * Input.GetAxis("Horizontal") * Time.deltaTime * speed);
         Isometric.projectGravityVector();
-
+        
 
         //Kai's stuff for animations
         float h = Input.GetAxis("Horizontal");
@@ -44,11 +44,12 @@ public class SimpleControllerKai : MonoBehaviour
         //
 
 
+        timer += Time.deltaTime;
 
 
-
-        if (Input.GetKeyDown("space"))
+        if (Input.GetKeyDown("space") && timer >2)
         {
+            timer = 0f;
             anim.SetTrigger("IsJumping");
             GetComponent<Rigidbody>().AddForce(Isometric.vectorToIsoDirection(IsoDirection.Up) * jumpForce, ForceMode.Impulse);
         }

@@ -1,25 +1,43 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class Loadlvl : MonoBehaviour {
-    public string level = "spectrum_lvl1";
-
+    public string level;
+    GameObject player;
+    GameObject door;
     // Use this for initialization
     void Start () {
-	
-	}
+        player = GameObject.FindGameObjectWithTag("Player");
+        door = GameObject.FindWithTag("Finish");
+    }
 	
 	// Update is called once per frame
 	void Update () {
 
-        // if player collides with object
+    
+        //temp fix for object collision
 
-        //Application.LoadLevel(level);
+        float XD = door.transform.position.x - player.transform.position.x;
+        float YD = door.transform.position.y - player.transform.position.y;
+        if (XD < 2 && XD > -2 && YD < 2 && YD > -2)
+        {
+         
+            SceneManager.LoadScene(level);
+        }
 
-    }
-    void OnMouseDown()
+            // if player collides with object
+
+            //
+
+        }
+    void OnTriggerEnter(Collider other)
     {
-        Application.LoadLevel(level);
+        if(other.gameObject == player)
+        {
+                Application.LoadLevel(level);
+        }
+            
     }
 
 }

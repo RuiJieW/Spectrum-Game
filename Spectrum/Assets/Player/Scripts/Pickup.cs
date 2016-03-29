@@ -49,7 +49,7 @@ public class Pickup : MonoBehaviour
         }
            
         }
-        print("XD" + XD + "YD" + YD);
+        ///print("XD" + XD + "YD" + YD);
 
     }
 }
