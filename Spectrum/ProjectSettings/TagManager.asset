@@ -8,7 +8,7 @@ TagManager:
   - orange
   - blue
   - light-b
-  - light
+  - hoverText
   layers:
   - Default
   - TransparentFX
