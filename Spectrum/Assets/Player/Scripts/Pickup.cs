@@ -5,7 +5,7 @@ public class Pickup : MonoBehaviour
     Animator anim;
     int colour = 0;
     // Use this for initialization
-
+    
     void Start()
     {
 
@@ -13,7 +13,7 @@ public class Pickup : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
+    {   //STILL NEED TO RESET FOR SWITCHING BETWEEEN COLOURS
         //transform.position = new Vector3(0, 0, 0);
         var lightOrange = GameObject.FindWithTag("light-o");
         var lightBlue = GameObject.FindWithTag("light-b");
@@ -27,12 +27,13 @@ public class Pickup : MonoBehaviour
 
             lightOrange.GetComponent<Renderer>().enabled = false;
             GameObject[] blocks;
-
+            //specific pickup for blue light orb
             if (GameObject.FindWithTag("light-b"))
             {
                 blocks = GameObject.FindGameObjectsWithTag("blue");
                 foreach (GameObject item in blocks)
-                {
+                {   
+                    //turn blocks blue and turn off collision
                     item.GetComponent<Renderer>().material.color = Color.blue;
                     item.GetComponent<IsoCollider>().enabled = false;
 
@@ -40,6 +41,8 @@ public class Pickup : MonoBehaviour
             }
 
 
+
+            //specific pickup for orange light orb
             if (GameObject.FindWithTag("light-o")) { 
                 blocks = GameObject.FindGameObjectsWithTag("orange");
             foreach (GameObject item in blocks)
