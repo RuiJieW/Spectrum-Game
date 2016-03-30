@@ -71,6 +71,7 @@
     <Compile Include="Assets\Player\Scripts\Pickup.cs" />
     <Compile Include="Assets\Player\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Player\Scripts\Visibility.cs" />
+    <Compile Include="Assets\TileScript.cs" />
     <Compile Include="Assets\Ultimate Isometric Toolkit\Code\IsometricTools\Iso\GenericGridMap.cs" />
     <Compile Include="Assets\Ultimate Isometric Toolkit\Code\IsometricTools\Iso\GridMap.cs" />
     <Compile Include="Assets\Ultimate Isometric Toolkit\Code\IsometricTools\Iso\IsoDirection.cs" />
