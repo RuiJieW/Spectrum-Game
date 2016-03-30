@@ -35,7 +35,7 @@ public class SimpleControllerKai : MonoBehaviour
         transform.Translate(Isometric.vectorToIsoDirection(IsoDirection.East) * Input.GetAxis("Horizontal") * Time.deltaTime * speed);
 
         Isometric.projectGravityVector();
-<<<<<<< HEAD
+
 
         GameObject[] blocks = GameObject.FindGameObjectsWithTag("orange");
 
@@ -45,9 +45,6 @@ public class SimpleControllerKai : MonoBehaviour
             transform.Translate(Isometric.vectorToIsoDirection(IsoDirection.East) * Input.GetAxis("Horizontal") * Time.deltaTime * speed);
         }
 
-=======
-        
->>>>>>> eb68301b290b87824cbe748600bf11caf39e280d
 
         //Kai's stuff for animations
         float h = Input.GetAxis("Horizontal");
