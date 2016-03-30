@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Ultimate Isometric Toolkit/SampleScenes/collisionDetection.unity
+- path: Assets/MainMenu/HelpMenu_2.unity
   isLoaded: 1
   isActive: 1
