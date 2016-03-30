@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/spectrum_lvl1_backup.unity
+=======
+- path: Assets/MainMenu/HelpMenu_2.unity
+>>>>>>> ee503983f963645fc10982b8177ad05db3477cb5
   isLoaded: 1
   isActive: 1
