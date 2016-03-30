@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 sceneSetups:
 - path: Assets/spectrum_lvl1.unity
   isLoaded: 1
   isActive: 1
+=======
+sceneSetups: []
+>>>>>>> f1c6c3c0365d28fd3d58e8d327bed73e79f4b845
