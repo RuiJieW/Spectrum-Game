@@ -31,8 +31,8 @@ public class SimpleControllerKai : MonoBehaviour
     new void Update()
     {
         //translate relative to isometric directions. IsoObject will hook up into the transform component to update its position.
-        transform.Translate(Isometric.vectorToIsoDirection(IsoDirection.North) * Input.GetAxis("Vertical") * Time.deltaTime * speed);
-        transform.Translate(Isometric.vectorToIsoDirection(IsoDirection.East) * Input.GetAxis("Horizontal") * Time.deltaTime * speed);
+        transform.Translate(Isometric.vectorToIsoDirection(IsoDirection.North) * Input.GetAxis("Vertical") * /*Time.deltaTime* * */speed);
+        transform.Translate(Isometric.vectorToIsoDirection(IsoDirection.East) * Input.GetAxis("Horizontal") * /*Time.deltaTime **/ speed);
 
         Isometric.projectGravityVector();
 
