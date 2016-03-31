@@ -8,8 +8,12 @@ TagManager:
   - orange
   - blue
   - light-b
+<<<<<<< HEAD
   - light
   - platform_1
+=======
+  - hoverText
+>>>>>>> 3b9ce70a253fc47891aca2a9ba50bffdb26af20f
   layers:
   - Default
   - TransparentFX
