@@ -6,50 +6,92 @@ public class Orb : MonoBehaviour {
     public int colour = 1;
     GameObject player;
     // Use this for initialization
-    void Start () {
-	  var player = GameObject.FindGameObjectWithTag("Player");
-	}
-	
-	// Update is called once per frame
-	void Update () {
-
+    void Start() {
+        var player = GameObject.FindGameObjectWithTag("Player");
     }
 
-    void OnCollisionEnter(Collision other)
-    {
+    // Update is called once per frame
+    void Update() {
+
+
+
+
         //transform.position = new Vector3(0, 0, 0);
         //if player colides with this object
 
         // playerVision = colour
 
         var light = GameObject.FindWithTag("light");
-      
-        string obj;
-        //colour is orange
-        if (colour == 1 && other.gameObject == player)
+        float XD = light.transform.position.x - player.transform.position.x;
+        float YD = light.transform.position.y - player.transform.position.y;
+        if (XD < 2 && XD > -2 && YD < 2 && YD > -2) ;
         {
-            player.GetComponent<Animator>().SetTrigger("PickUp");
 
-            light.GetComponent<Renderer>().enabled = false;
-            GameObject[] blocks;
-            blocks = GameObject.FindGameObjectsWithTag("orange");
-            foreach (GameObject item in blocks)
+            string obj;
+            //colour is orange
+            if (colour == 1)
             {
-                item.GetComponent<Renderer>().enabled = true;
-            }
+                player.GetComponent<Animator>().SetTrigger("PickUp");
 
-        }
-       else if (colour == 2 && other.gameObject == player)
-        {
-            player.GetComponent<Animator>().SetTrigger("PickUp");
-            //change colour to blue and disable collider
-            // light.GetComponent<Renderer>().enabled = false;
-            GameObject[] blocks;
-            blocks = GameObject.FindGameObjectsWithTag("orange");
-            foreach (GameObject item in blocks)
+                light.GetComponent<Renderer>().enabled = false;
+                GameObject[] blocks;
+                blocks = GameObject.FindGameObjectsWithTag("orange");
+                foreach (GameObject item in blocks)
+                {
+                    item.GetComponent<Renderer>().enabled = true;
+                }
+
+            }
+            else if (colour == 2)
             {
-                item.GetComponent<Renderer>().enabled = true;
+                player.GetComponent<Animator>().SetTrigger("PickUp");
+                //change colour to blue and disable collider
+                // light.GetComponent<Renderer>().enabled = false;
+                GameObject[] blocks;
+                blocks = GameObject.FindGameObjectsWithTag("orange");
+                foreach (GameObject item in blocks)
+                {
+                    item.GetComponent<Renderer>().enabled = true;
+                }
             }
         }
+
+        /*   void OnCollisionEnter(Collision other)
+           {
+               //transform.position = new Vector3(0, 0, 0);
+               //if player colides with this object
+
+               // playerVision = colour
+
+               var light = GameObject.FindWithTag("light");
+
+               string obj;
+               //colour is orange
+               if (colour == 1 && )
+               {
+                   player.GetComponent<Animator>().SetTrigger("PickUp");
+
+                   light.GetComponent<Renderer>().enabled = false;
+                   GameObject[] blocks;
+                   blocks = GameObject.FindGameObjectsWithTag("orange");
+                   foreach (GameObject item in blocks)
+                   {
+                       item.GetComponent<Renderer>().enabled = true;
+                   }
+
+               }
+              else if (colour == 2 && other.gameObject == player)
+               {
+                   player.GetComponent<Animator>().SetTrigger("PickUp");
+                   //change colour to blue and disable collider
+                   // light.GetComponent<Renderer>().enabled = false;
+                   GameObject[] blocks;
+                   blocks = GameObject.FindGameObjectsWithTag("orange");
+                   foreach (GameObject item in blocks)
+                   {
+                       item.GetComponent<Renderer>().enabled = true;
+                   }
+               }
+           }*/
     }
 }
