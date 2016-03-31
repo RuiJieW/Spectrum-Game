@@ -84,6 +84,13 @@
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
+<<<<<<< HEAD
+=======
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{81DD45AB-423E-962F-5C70-E0D2FCAF6843}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+>>>>>>> f10a0e3f28703eeae7c846b51359ffe988695542
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
