@@ -1,16 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
 - path: Assets/spectrum_lvl1.unity
-=======
-<<<<<<< HEAD
-- path: Assets/spectrum_lvl2.unity
-=======
-<<<<<<< HEAD
-- path: Assets/spectrum_lvl3.unity
-=======
-- path: Assets/spectrum_lvl2.unity
->>>>>>> 98e6476e8f6527dcf075d588ba2d95c3deda28ce
->>>>>>> 3b9ce70a253fc47891aca2a9ba50bffdb26af20f
->>>>>>> 15db258bdc59a58db18ef541919b3a3fe61cf0a2
   isLoaded: 1
   isActive: 1
