@@ -3,17 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - light-o
-  - orange
-  - blue
-  - light-b
-<<<<<<< HEAD
-  - light
-  - platform_1
-=======
-  - hoverText
->>>>>>> 3b9ce70a253fc47891aca2a9ba50bffdb26af20f
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -50,16 +40,4 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: BG
-    uniqueID: 554266439
-    locked: 0
-  - name: 'GROUND ZERO '
-    uniqueID: 4010135033
-    locked: 0
-  - name: FG
-    uniqueID: 333696447
-    locked: 0
-  - name: Light
-    uniqueID: 1809473865
     locked: 0
