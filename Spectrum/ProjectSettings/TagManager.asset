@@ -9,6 +9,7 @@ TagManager:
   - blue
   - light-b
   - light
+  - platform_1
   layers:
   - Default
   - TransparentFX

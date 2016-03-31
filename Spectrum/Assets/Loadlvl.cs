@@ -4,8 +4,8 @@ using UnityEngine.SceneManagement;
 
 public class Loadlvl : MonoBehaviour {
     public string level;
-    GameObject player;
-    GameObject door;
+    public GameObject player;
+    public GameObject door;
     // Use this for initialization
     void Start () {
         player = GameObject.FindGameObjectWithTag("Player");
