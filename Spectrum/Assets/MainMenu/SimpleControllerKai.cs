@@ -9,7 +9,11 @@ using System.Collections;
 public class SimpleControllerKai : MonoBehaviour
 {
     public float timeBetweenJump;
+<<<<<<< HEAD
+    public float speed = 5;
+=======
     public float speed = 1;
+>>>>>>> 3b9ce70a253fc47891aca2a9ba50bffdb26af20f
     public float jumpForce = 5;
     float timer;
     //Kai's addition
@@ -44,7 +48,6 @@ public class SimpleControllerKai : MonoBehaviour
             transform.Translate(Isometric.vectorToIsoDirection(IsoDirection.North) * Input.GetAxis("Vertical") * Time.deltaTime * speed);
             transform.Translate(Isometric.vectorToIsoDirection(IsoDirection.East) * Input.GetAxis("Horizontal") * Time.deltaTime * speed);
         }
-
 
         //Kai's stuff for animations
         float h = Input.GetAxis("Horizontal");
