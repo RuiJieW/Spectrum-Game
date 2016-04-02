@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - light-o
+  - orange
+  - blue
+  - light-b
+  - light
   layers:
   - Default
   - TransparentFX
@@ -40,4 +45,16 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: BG
+    uniqueID: 554266439
+    locked: 0
+  - name: 'GROUND ZERO '
+    uniqueID: 4010135033
+    locked: 0
+  - name: FG
+    uniqueID: 333696447
+    locked: 0
+  - name: Light
+    uniqueID: 1809473865
     locked: 0

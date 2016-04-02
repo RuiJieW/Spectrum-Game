@@ -14,6 +14,7 @@ class IsoObjectEditor : Editor
 
 	public static bool centerNeedsUpdate = false;
 
+
 	public static IsoObject[] lastTargets;
 
 	/// <summary>
@@ -23,7 +24,7 @@ class IsoObjectEditor : Editor
 	{
 		//calc the custom handle position in sceneview
 		var isoHandlePos = Isometric.toIsoProjection(center);
-		var t = (IsoObject) target;
+		var t = (IsoObject)target;
 
 
 		if (GUI.changed)

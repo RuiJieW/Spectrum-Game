@@ -9,15 +9,7 @@ using System.Collections;
 public class SimpleControllerKai : MonoBehaviour
 {
     public float timeBetweenJump;
-<<<<<<< HEAD
-    public float speed = 5;
-    public float speed = 1;
-=======
-
-
-    public float speed = 1;
-
->>>>>>> f10a0e3f28703eeae7c846b51359ffe988695542
+    public float speed = 10;
     public float jumpForce = 5;
     float timer;
     //Kai's addition
@@ -35,15 +27,13 @@ public class SimpleControllerKai : MonoBehaviour
         timer = 2f;
     }
 
-
     new void Update()
     {
         //translate relative to isometric directions. IsoObject will hook up into the transform component to update its position.
-        transform.Translate(Isometric.vectorToIsoDirection(IsoDirection.North) * Input.GetAxis("Vertical") * /*Time.deltaTime* * */speed);
-        transform.Translate(Isometric.vectorToIsoDirection(IsoDirection.East) * Input.GetAxis("Horizontal") * /*Time.deltaTime **/ speed);
+        transform.Translate(Isometric.vectorToIsoDirection(IsoDirection.North) * Input.GetAxis("Vertical") * Time.deltaTime * speed);
+        transform.Translate(Isometric.vectorToIsoDirection(IsoDirection.East) * Input.GetAxis("Horizontal") * Time.deltaTime * speed);
 
         Isometric.projectGravityVector();
-
 
         GameObject[] blocks = GameObject.FindGameObjectsWithTag("orange");
 
@@ -59,8 +49,6 @@ public class SimpleControllerKai : MonoBehaviour
 
         Animating(h, v);
         //
-
-
         timer += Time.deltaTime;
 
 
@@ -104,16 +92,12 @@ public class SimpleControllerKai : MonoBehaviour
         {
             transform.localScale = new Vector3(1, 1, 1);
             anim.SetBool("IsForward", false);
-
         }
         //right
         if (h > 0f)
         {
             transform.localScale = new Vector3(-1, 1, 1);
             anim.SetBool("IsForward", true);
-
-
         }
     }
-
 }
