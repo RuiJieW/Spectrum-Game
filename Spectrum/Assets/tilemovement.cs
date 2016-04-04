@@ -36,8 +36,8 @@ public class tilemovement : MonoBehaviour {
         GameObject platformB = GameObject.Find("PlatformB-lift");
         GameObject platformC = GameObject.Find("PlatformB-C");
 
-        MovePlatforms(platformA);
-        MovePlatforms(platformB);
+        //MovePlatforms(platformA);
+        //MovePlatforms(platformB);
      	//MovePlatforms(platformC);
     }
 
@@ -104,7 +104,7 @@ public class tilemovement : MonoBehaviour {
             } else if (phase2A) {
                 distance2_A++;
 
-                if (distance2_A >= 400) {
+                if (distance2_A >= 350) {
                     ORIENTATION_A = IsoDirection.West;
                     phase2A = false;
                     phase3A = true;
