@@ -42,6 +42,7 @@ public class Pickup : MonoBehaviour
            
         }
 
+
                 float BXD = lightBlue.transform.position.x - player.transform.position.x;
         float BYD = lightBlue.transform.position.y - player.transform.position.y;
         if (BXD < 2 && BXD > -2 && BYD < 2 && BYD > -2)

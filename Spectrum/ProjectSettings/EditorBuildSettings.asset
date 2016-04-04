@@ -23,3 +23,9 @@ EditorBuildSettings:
     path: Assets/MainMenu/MainMenu.unity
   - enabled: 1
     path: Assets/MainMenu/HelpMenu_2.unity
+  - enabled: 1
+    path: Assets/spectrum_lvl4.unity
+  - enabled: 1
+    path: Assets/spectrum_lvl6.unity
+  - enabled: 1
+    path: Assets/spectrum_lvl5.unity
