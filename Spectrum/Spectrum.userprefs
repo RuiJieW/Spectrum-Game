@@ -1,11 +1,14 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\MainMenu\SimpleControllerKai.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\movPlatform2C.cs">
     <Files>
+      <File FileName="Assets\tilemovement.cs" Line="240" Column="9" />
       <File FileName="Assets\MainMenu\SimpleControllerKai.cs" Line="23" Column="6" />
       <File FileName="Assets\Player\Scripts\Pickup.cs" Line="64" Column="2" />
-      <File FileName="Assets\tilemovement.cs" Line="164" Column="18" />
-      <File FileName="Assets\onPlatform.cs" Line="12" Column="10" NotebookId="1" />
+      <File FileName="Assets\movPlatform2A.cs" Line="60" Column="24" />
+      <File FileName="Assets\movPlatform2B.cs" Line="34" Column="4" />
+      <File FileName="Assets\onPlatform.cs" Line="12" Column="18" NotebookId="1" />
+      <File FileName="Assets\movPlatform2C.cs" Line="55" Column="24" NotebookId="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

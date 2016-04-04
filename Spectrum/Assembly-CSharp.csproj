@@ -79,6 +79,13 @@
      <Compile Include="Assets\World Elements\Scripts\colourChange.cs" />
      <Compile Include="Assets\World Elements\Scripts\displayUI.cs" />
      <Compile Include="Assets\disableCollider.cs" />
+     <Compile Include="Assets\movPlatform2A.cs" />
+     <Compile Include="Assets\movPlatform2B.cs" />
+     <Compile Include="Assets\movPlatform2C.cs" />
+     <Compile Include="Assets\movPlatform3A.cs" />
+     <Compile Include="Assets\movPlatform3B.cs" />
+     <Compile Include="Assets\movPlatform3C.cs" />
+     <Compile Include="Assets\movementLvl2PlatformA.cs" />
      <Compile Include="Assets\onPlatform.cs" />
      <Compile Include="Assets\tilemovement.cs" />
      <None Include="Assets\Ultimate Isometric Toolkit\ReadMe.txt" />
