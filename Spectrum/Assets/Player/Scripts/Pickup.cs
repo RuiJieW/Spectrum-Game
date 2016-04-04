@@ -23,6 +23,7 @@ public class Pickup : MonoBehaviour
         float YD = lightOrange.transform.position.y - player.transform.position.y;
         if (XD < 2 && XD > -2 && YD < 2 && YD > -2)
         {
+
             player.GetComponent<Animator>().SetTrigger("PickUp");
 
             lightOrange.GetComponent<Renderer>().enabled = false;

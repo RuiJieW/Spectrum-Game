@@ -20,7 +20,36 @@ public class movPlatform2B : MonoBehaviour {
 	}
 
 	void MovePlatform() {
-		if (waitTime == false) {
+
+        GameObject platformA = GameObject.Find("PlatformA-B");
+        var player = GameObject.FindGameObjectWithTag("Player");
+        var offset = 3;
+        var offset2 = 8;
+
+
+        float XD = transform.position.x - player.transform.position.x;
+        float YD = transform.position.y - player.transform.position.y;
+
+        if (XD < offset && XD > -offset && YD < offset && YD > -offset)
+        {
+            if (waitTime == false)
+            {
+                player.GetComponent<Rigidbody>().isKinematic = true;
+                player.transform.Translate(Isometric.vectorToIsoDirection(ORIENTATION) * direction * Time.deltaTime * speed);
+            }
+        }
+        else {
+            if (waitTime == false)
+            {
+                if ((XD > offset2 || XD < -offset2) || (YD > offset2 || YD < -offset2))
+                {
+                    player.GetComponent<Rigidbody>().isKinematic = false;
+                }
+            }
+        }
+
+
+        if (waitTime == false) {
 			transform.Translate (Isometric.vectorToIsoDirection (ORIENTATION) * direction * Time.deltaTime * speed);
 		}
 

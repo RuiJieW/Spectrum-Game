@@ -36,7 +36,7 @@ public class tilemovement : MonoBehaviour {
         GameObject platformB = GameObject.Find("PlatformB-lift");
         GameObject platformC = GameObject.Find("PlatformB-C");
 
-        //MovePlatforms(platformA);
+        MovePlatforms(platformA);
         //MovePlatforms(platformB);
      	//MovePlatforms(platformC);
     }
