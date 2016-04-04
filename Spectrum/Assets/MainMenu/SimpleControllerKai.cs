@@ -9,7 +9,7 @@ using System.Collections;
 public class SimpleControllerKai : MonoBehaviour
 {
     public float timeBetweenJump;
-    public float speed = 10;
+    public float speed = 0.08f;
     public float jumpForce = 5;
     float timer;
     //Kai's addition

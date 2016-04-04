@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/spectrum_lvl4.unity
+- path: Assets/spectrum_lvl6.unity
   isLoaded: 1
   isActive: 1
